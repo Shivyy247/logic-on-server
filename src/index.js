@@ -1,10 +1,14 @@
 // require('dotenv').config({path: './env'})
 
-import Dotenv from "dotenv";
-import connectDB from "./db/index.js"
+import dotenv from "dotenv"; // Use lowercase 'dotenv' as is standard
+import connectDB from "./db/index.js";
 import { app } from "./app.js";
 
-Dotenv.config()
+dotenv.config({
+  path: "./.env", // Make sure this path is correct
+});
+
+
 connectDB()
 
     .then(() => {
