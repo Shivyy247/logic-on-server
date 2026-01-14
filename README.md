@@ -17,6 +17,7 @@ This repository focuses on **server-side logic**, scalability, and real-world ba
 - **Mongoose schema hooks** for better data handling  
 - Clean separation of **routes, controllers, middlewares, and utilities**
 - **Debug-friendly** logging for database and server events
+- **API versioning** support
 ---
 
 ## 🛠 Tech Stack
